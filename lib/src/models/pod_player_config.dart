@@ -13,7 +13,7 @@ class PodPlayerConfig {
 
   const PodPlayerConfig({
     this.autoPlay = true,
-    this.isLooping = false,
+    this.isLooping = true,
     this.forcedVideoFocus = false,
     this.wakelockEnabled = true,
     this.videoQualityPriority = const [1080, 720, 360],
