@@ -89,13 +89,13 @@ class PodPlayerController {
   bool get isInitialised => _ctr.videoCtr?.value.isInitialized ?? false;
 
   /// returns true if video is playing
-  bool get isVideoPlaying => _ctr.videoCtr?.value.isPlaying ?? false;
+  bool get isVideoPlaying => _ctr.videoCtr?.value.isPlaying ?? true;
 
   /// returns true if video is in buffering state
   bool get isVideoBuffering => _ctr.videoCtr?.value.isBuffering ?? false;
 
   /// returns true if `loop` is enabled
-  bool get isVideoLooping => _ctr.videoCtr?.value.isLooping ?? false;
+  bool get isVideoLooping => _ctr.videoCtr?.value.isLooping ?? true;
 
   /// returns true if video is in fullscreen mode
   bool get isFullScreen => _ctr.isFullScreen;
